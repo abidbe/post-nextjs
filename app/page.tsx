@@ -28,7 +28,7 @@ const HomePage: NextPage = () => {
                     </Link>
                   </div>
                   <div className="mt-3 sm:mt-0 sm:ml-3">
-                    <Link href="/album" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10">
+                    <Link href="/albums" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10">
                       Browse Album
                     </Link>
                   </div>
@@ -54,7 +54,7 @@ const HomePage: NextPage = () => {
             <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Photo Collections</h3>
               <p className="text-gray-600">Explore beautiful moments captured through our photo albums.</p>
-              <Link href="/album" className="mt-4 inline-flex items-center text-indigo-600 hover:text-indigo-500">
+              <Link href="/albums" className="mt-4 inline-flex items-center text-indigo-600 hover:text-indigo-500">
                 View albums <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </div>

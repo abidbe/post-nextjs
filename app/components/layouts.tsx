@@ -37,10 +37,10 @@ export default function Layout({ children }: LayoutProps) {
                   Posts
                 </Link>
                 <Link
-                  href="/album"
-                  className={`inline-flex items-center px-1 pt-1 text-sm font-medium border-b-2 ${pathname === "/album" ? "text-gray-900 border-indigo-500" : "text-gray-500 border-transparent hover:text-gray-900 hover:border-gray-300"}`}
+                  href="/albums"
+                  className={`inline-flex items-center px-1 pt-1 text-sm font-medium border-b-2 ${pathname === "/albums" ? "text-gray-900 border-indigo-500" : "text-gray-500 border-transparent hover:text-gray-900 hover:border-gray-300"}`}
                 >
-                  Album
+                  Albums
                 </Link>
               </div>
             </div>
@@ -77,12 +77,12 @@ export default function Layout({ children }: LayoutProps) {
               Posts
             </Link>
             <Link
-              href="/album"
+              href="/albums"
               className={`block pl-3 pr-4 py-2 text-base font-medium border-l-4 ${
-                pathname === "/album" ? "bg-indigo-50 border-indigo-500 text-indigo-700" : "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700"
+                pathname === "/albums" ? "bg-indigo-50 border-indigo-500 text-indigo-700" : "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700"
               }`}
             >
-              Album
+              Albums
             </Link>
           </div>
         </div>
